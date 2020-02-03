@@ -13,8 +13,10 @@ script:
 
 deploy:
   provider: pages
-  cleanup: true
+  skip_cleanup: true
   github-token: $GITHUB_TOKEN
   keep_history: true
+  script:
+  - git add .
   on:
     branch: master
