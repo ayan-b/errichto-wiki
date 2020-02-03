@@ -12,7 +12,7 @@ script:
   - mkdocs build
   - mv site/* .
   - rm -rf docs
-  - rm requirements.txt .travis.yml mkdocs.yml
+  - rm requirements.txt .travis.yml mkdocs.yml .gitignore
 
 deploy:
   provider: pages
