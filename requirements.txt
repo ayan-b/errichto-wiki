@@ -1,0 +1,5 @@
+mkdocs>=1
+mkdocs-material
+pymdown-extensions>=6.2,<6.3
+meta
+mkdocs-minify-plugin

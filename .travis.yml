@@ -1,0 +1,21 @@
+sudo: required
+language: python
+notifications:
+  email: false
+
+before_script:
+  - pip install -r requirements.txt
+  - git clone https://github.com/Errichto/youtube.wiki.git
+
+script:
+  - mv youtube.wiki docs
+  - mkdocs build
+  - mv sites .
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: master
