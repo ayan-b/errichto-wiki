@@ -5,14 +5,13 @@ notifications:
 
 before_script:
   - pip install -r requirements.txt
-  - git clone https://github.com/Errichto/youtube.wiki.git
+  - git clone https://github.com/Errichto/youtube.wiki.git docs
 
 script:
-  - mv youtube.wiki docs
   - mkdocs build
-  - mv site/* .
   - rm -rf docs
   - rm requirements.txt .travis.yml mkdocs.yml .gitignore
+  - mv site/* .
 
 deploy:
   provider: pages
