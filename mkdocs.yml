@@ -2,6 +2,8 @@ site_name: Errichto Wiki
 site_description: Errichto Wiki
 site_author: errichto
 site_url: https://ayan-b.github.io/errichto-wiki
+repo_url: https://github.com/Errichto/youtube/wiki/
+edit_uri: ''
 
 # Configuration
 theme:
