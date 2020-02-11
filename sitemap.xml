@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+     <loc>https://ayan-b.github.io/errichto-wiki/</loc>
+     <lastmod>2020-02-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
      <loc>https://ayan-b.github.io/errichto-wiki/Coding-interviews/</loc>
      <lastmod>2020-02-11</lastmod>
      <changefreq>daily</changefreq>
@@ -17,11 +22,6 @@
     </url>
     <url>
      <loc>https://ayan-b.github.io/errichto-wiki/FAQ/</loc>
-     <lastmod>2020-02-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-    <url>
-     <loc>https://ayan-b.github.io/errichto-wiki/Home/</loc>
      <lastmod>2020-02-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
